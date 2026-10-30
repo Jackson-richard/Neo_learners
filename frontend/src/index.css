@@ -1,0 +1,72 @@
+:root {
+  --global-font-scale: 1.0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', 'Inter', sans-serif;
+  background-color: #f7f8fa;
+  font-size: calc(16px * var(--global-font-scale));
+  transition: font-size 0.2s ease, background-color 0.2s ease;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Accessibility: High Contrast Modes */
+.high-contrast-active {
+  background-color: #000000 !important;
+}
+
+.high-contrast-active body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.high-contrast-active .MuiPaper-root,
+.high-contrast-active .MuiCard-root {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+  border: 3px solid #ffffff !important;
+  box-shadow: none !important;
+}
+
+.high-contrast-active .MuiTypography-root,
+.high-contrast-active .MuiListItemText-primary,
+.high-contrast-active .MuiListItemText-secondary,
+.high-contrast-active .MuiInputLabel-root,
+.high-contrast-active .MuiSelect-select,
+.high-contrast-active .MuiRadio-root {
+  color: #ffffff !important;
+}
+
+.high-contrast-active .MuiButton-root {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 3px solid #ffffff !important;
+  border-bottom: 3px solid #ffffff !important;
+}
+
+.high-contrast-active .MuiButton-containedPrimary {
+  background-color: #ffff00 !important; /* High contrast yellow */
+  color: #000000 !important;
+}
+
+.high-contrast-active .MuiButton-containedSecondary {
+  background-color: #00ffff !important; /* High contrast cyan */
+  color: #000000 !important;
+}
+
+.high-contrast-active .MuiOutlinedInput-notchedOutline {
+  border-color: #ffffff !important;
+}
+
+.high-contrast-active .MuiChip-root {
+  background-color: #222222 !important;
+  color: #ffffff !important;
+  border: 2px solid #ffffff !important;
+}
+

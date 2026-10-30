@@ -1,0 +1,90 @@
+# ============================
+# Dependencies
+# ============================
+node_modules/
+**/node_modules/
+.pnp
+.pnp.js
+
+# ============================
+# Production / Build Outputs
+# ============================
+dist/
+dist-ssr/
+build/
+out/
+*.tsbuildinfo
+
+# ============================
+# Environment Variables
+# ============================
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env*.local
+**/.env
+**/.env.*
+
+# ============================
+# Logs
+# ============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================
+# Package Manager Lock Files (root only)
+# ============================
+/package-lock.json
+
+# ============================
+# OS Generated Files
+# ============================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================
+# Editor / IDE Files
+# ============================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# ============================
+# Debug & Coverage
+# ============================
+coverage/
+*.lcov
+.nyc_output/
+
+# ============================
+# Misc
+# ============================
+*.local
+*.tgz
+.eslintcache
+.cache
+.parcel-cache

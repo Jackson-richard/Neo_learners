@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment (CRITICAL — contains API keys & secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / IDE
+.vscode/*
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Debug & Coverage
+coverage/
+*.lcov
+.nyc_output/
